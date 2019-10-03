@@ -11,7 +11,7 @@ while True:
 	command = input('Endter result or command: ')
 	if command == 'result':
 		if result == None:
-			print('0')
+			print('0')#FIXME: 0 is not None
 		print(result)
 		break
 	elif command == 'q':
