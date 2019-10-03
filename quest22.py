@@ -1,7 +1,7 @@
 import module21
 import datetime
 i = input('choose act date or numbers: ')
-if i == 'numbers':
+if i == 'numbers':#FIXME: add else if not number or date
 	numb0 = input('Enter Number: ')
 	command = input('Endter command: ')
 	result = numb0
