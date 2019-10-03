@@ -1,5 +1,5 @@
 def calcnumb(a,do,c):
-    if do in {"+","-","*","/","**","%","//"}:
+    if do in {"+","-","*","/","**","%","//"}:#FIXME: add checks for value error
         if do == '+':
             d = float(c) + float(a)
             return d
